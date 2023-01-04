@@ -5,6 +5,4 @@ jobs:
   commitlint:
     runs-on: ubuntu-latest
     steps:
-      - uses: echo "${ message }" | npx commitlint
-      env:
-          message: ${{ github.event.head_commit.message }}
+      - uses: echo "${{ github.event.head_commit.message }}" | npx commitlint
