@@ -4,5 +4,4 @@ on: [pull_request]
 jobs:
   commitlint:
     runs-on: ubuntu-latest
-    steps:
-      - uses: echo "${CI_COMMIT_MESSAGE}" | npx commitlint
+    run: echo "${CI_COMMIT_MESSAGE}" | npx commitlint
