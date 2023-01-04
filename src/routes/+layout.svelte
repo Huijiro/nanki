@@ -2,4 +2,6 @@
 	import '../app.css';
 </script>
 
-<slot />
+<div class="h-max w-max dark:bg-black dark:text-white transition-colors">
+	<slot />
+</div>
