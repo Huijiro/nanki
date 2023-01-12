@@ -6,7 +6,9 @@
 	};
 </script>
 
-<div class="border-2 flex flex-col justify-between items-center min-h-[360px] min-w-[270px]">
+<div
+	class="border-2 flex flex-col justify-between items-center min-h-[360px] min-w-[270px] focus:hover:bg-ink dark:hover:bg-paper focus:hover:text-paper dark:hover:text-ink cursor-pointer"
+>
 	<div class="h-full text-2xl font-bold flex justify-center items-center">
 		<h2>{deckInfo.name}</h2>
 	</div>
