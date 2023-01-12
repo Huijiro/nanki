@@ -3,7 +3,7 @@
 	if (!localStorage.getItem('first_visit')) {
 		goto('/welcome');
 		localStorage.setItem('first_visit', 'visited');
+	} else {
+		goto('/home');
 	}
 </script>
-
-<h1>Hello</h1>
