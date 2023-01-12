@@ -5,3 +5,5 @@ type Deck = {
 	updatedAt: Date;
 	cards: Card[];
 };
+
+type DeckInfo = Omit<Deck, 'id' | 'cards'>;
