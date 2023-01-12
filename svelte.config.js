@@ -9,7 +9,10 @@ const config = {
 
 	kit: {
 		adapter: adapter({ fallback: '200.html' }),
-		prerender: { entries: [] }
+		prerender: { entries: [] },
+		alias: {
+			'@': 'src/components'
+		}
 	}
 };
 
