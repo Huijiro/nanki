@@ -1,5 +1,5 @@
 <script>
-	import Header from '@/Header/Header.svelte';
+	import Header from '@/Header.svelte';
 </script>
 
 <Header />
